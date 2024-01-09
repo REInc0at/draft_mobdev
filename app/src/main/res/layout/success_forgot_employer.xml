@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#02A3C1">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="878dp"
+            android:layout_height="934dp"
+            android:rotationX="181"
+            app:srcCompat="@drawable/employer__8_"
+            tools:layout_editor_absoluteX="-221dp"
+            tools:layout_editor_absoluteY="292dp" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/frame1" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="97dp"
+            android:layout_height="27dp"
+            android:fontFamily="@font/poppins"
+            android:text="Employer"
+            android:textColor="#FEFEFE"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#02A2C0"
+            android:text="Proceed to login"
+            tools:layout_editor_absoluteX="120dp"
+            tools:layout_editor_absoluteY="559dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="318dp"
+        android:layout_height="215dp"
+        app:srcCompat="@drawable/nice_job_logo__6_"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="197dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="You may now proceed to the login page."
+        android:textAlignment="center"
+        android:textColor="#02A2C0"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="166dp"
+        android:layout_height="187dp"
+        app:srcCompat="@drawable/success"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="259dp"
+        android:layout_height="74dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="You’ve successfully changed your password."
+        android:textAlignment="center"
+        android:textColor="#6AC259"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="226dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

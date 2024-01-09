@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#02A3C1">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="354dp"
+            android:layout_height="253dp"
+            app:srcCompat="@drawable/___1_"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="43dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/untitled_design__11_"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="110dp" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="553dp"
+            android:layout_height="948dp"
+            app:srcCompat="@drawable/untitled_design__12_"
+            tools:layout_editor_absoluteX="-44dp"
+            tools:layout_editor_absoluteY="271dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/employer1"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="365dp" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/employer__5_"
+            tools:layout_editor_absoluteX="233dp"
+            tools:layout_editor_absoluteY="365dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="354dp"
+        android:layout_height="253dp"
+        app:srcCompat="@drawable/___1_"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/untitled_design__11_"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/employer1"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/employer__5_"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="135dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#02A3C1"
+        android:fontFamily="@font/poppins_thin"
+        android:text="Register"
+        app:strokeColor="#02A3C1"
+        tools:fontFamily="@font/poppins"
+        tools:includeFontPadding="true"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="63dp"
+        android:layout_height="43dp"
+        android:backgroundTint="#00FFFFFF"
+        android:clickable="true"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Login"
+        android:textColor="#02A3C1"
+        android:textSize="15sp"
+        tools:fontFamily="@font/poppins"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

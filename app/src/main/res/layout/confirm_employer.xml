@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#02A3C1"
+        android:backgroundTint="#02A3C1"/>
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="902dp"
+        android:layout_height="997dp"
+        android:rotationX="181"
+        app:srcCompat="@drawable/employer__8_"
+        tools:layout_editor_absoluteX="-284dp"
+        tools:layout_editor_absoluteY="-320dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="318dp"
+        android:layout_height="215dp"
+        app:srcCompat="@drawable/nice_job_logo__6_"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="105dp"
+        android:layout_height="25dp"
+        android:fontFamily="@font/poppins"
+        android:text="Applicant"
+        android:textColor="#FEFEFE"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/frame1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Email"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/name"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="264dp"
+        android:layout_height="49dp"
+        android:background="#00FFFFFF"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:inputType="textEmailAddress"
+        android:text="trabahunt@gmail.com"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Username"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/name"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Password"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/name"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="I agree to the "
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="I agree to the "
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="513dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="258dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#00FFFFFF"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:inputType="textPassword"
+        android:text="password"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="259dp"
+        android:layout_height="39dp"
+        android:backgroundTint="#00FFFFFF"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:inputType="text"
+        android:text="TrabaHunt"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="269dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/poppins"
+        android:text="By proceeding, you agree that all information you’ve provided is true and correct."
+        android:textAlignment="center"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="561dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:text="Back"
+        android:textColor="#02A2C0"
+        tools:backgroundTint="#FEFEFE"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="652dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:textColor="#02A2C0"
+        tools:backgroundTint="#FEFEFE"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="652dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
